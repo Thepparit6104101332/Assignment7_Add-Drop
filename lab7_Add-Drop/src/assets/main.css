@@ -1,0 +1,85 @@
+@import './base.css';
+
+.subject-list{
+    max-width: 640px;
+  margin: 20px auto;
+}
+
+.subject{
+    padding:  6px 20px;
+    background: #ecd6d6 ;
+    margin-top:20px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.subject h3, .subject .icons{
+
+    display: inline-block;
+
+}
+
+.subject .icons{
+    text-align: right;
+}
+
+.subject i {
+    font-size: 1.4em;
+    margin-left: 6px;
+    cursor: pointer;
+    color: #e70e0e;
+}
+
+.filter {
+    width: 640px;
+    margin: 10px auto;
+    text-align: right;
+}
+
+.filter button{
+    display: inline-block;
+    margin-left: 10px;
+    background: #fff;
+    border: 2px solid #555;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-size: 1em;
+
+}
+
+.new .subject form {
+    background: #e7e7e7;
+    padding: 20px 0;
+}
+
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+  }
+  form button {
+    background: #ffd859;
+    border: 0;
+    padding: 10px;
+    font-family: "Poppins";
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  form input {
+    border: 0;
+    padding: 10px;
+    border-radius: 6px;
+    color: #555;
+    font-size: 1em;
+  }
